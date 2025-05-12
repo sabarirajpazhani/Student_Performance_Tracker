@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Student_Performance_Tracker
 {
-    internal abstract class  Students
+    internal abstract class Students
     {
-        public int Student_ID { get; set; } 
-        public string Student_Name { get; set; }    
-        public string Student_Type { get; set; }   
+        public int Student_ID { get; set; }
+        public string Student_Name { get; set; }
+        public string Student_Type { get; set; }
 
         public Students(int Student_ID, string Student_Name, string Student_Type)
         {

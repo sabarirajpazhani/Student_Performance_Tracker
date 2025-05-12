@@ -90,7 +90,7 @@ namespace Student_Performance_Tracker
             string Grade = "Empty";
 
             int maxMark = 500;
-            double Percentage = (totalMark / maxMark) * 100;
+            double Percentage = (totalMark / (double)maxMark) * 100;
 
             if (Percentage > 60)
             {
