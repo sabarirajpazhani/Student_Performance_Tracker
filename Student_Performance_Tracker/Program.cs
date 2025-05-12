@@ -1133,7 +1133,7 @@ namespace Student_Performance_Tracker
                         {
                             Console.Clear();
                             Console.ForegroundColor = ConsoleColor.Cyan;
-                            Console.Write("                 Existing From Grocery: ");
+                            Console.Write("                      Existing : ");
                             Console.ResetColor();
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine($" {i} ");
